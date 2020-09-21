@@ -4,7 +4,7 @@ import os
 
 
 fig, ax = plt.subplots()
-x = np.linspace(-10, 10, num = 400)
+x = np.linspace(-10, 10, num = 401)
 A = 1.34941
 y = -0.0001*(np.fabs(np.sin(x)*np.sin(A)*np.exp(np.fabs(100-((x**2 + A**2)**0.5)/np.pi)))+1)**0.1
 path = 'results'
